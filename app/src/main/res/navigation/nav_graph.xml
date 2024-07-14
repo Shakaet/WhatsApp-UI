@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_chats">
+
+    <fragment
+        android:id="@+id/navigation_chats"
+        android:name="com.example.wp_ui.FirstFragment"
+        android:label="WhatsApp"
+        tools:layout="@layout/fragment_first">
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_updates"
+        android:name="com.example.wp_ui.SecondFragment"
+        android:label="Updates"
+        tools:layout="@layout/fragment_second">
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_communities"
+        android:name="com.example.wp_ui.ThirdFragment"
+        android:label="Communities"
+        tools:layout="@layout/fragment_third" >
+
+
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_calls"
+        android:name="com.example.wp_ui.FourFragment"
+        android:label="Calls"
+        tools:layout="@layout/fragment_four" >
+
+
+    </fragment>
+</navigation>

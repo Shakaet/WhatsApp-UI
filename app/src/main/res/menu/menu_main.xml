@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.wp_ui.MainActivity">
+    <item
+        android:id="@+id/action_newgrp"
+        android:orderInCategory="100"
+        android:title="New Group"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/newbroad"
+        android:orderInCategory="100"
+        android:title="New Broadcast"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_linkdev"
+        android:orderInCategory="100"
+        android:title="Linked Devices"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_starmessage"
+        android:orderInCategory="100"
+        android:title="Starred Messages"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+
+
+    <item
+
+        android:id="@+id/action_camera"
+        android:title="Camera"
+        android:icon="@drawable/baseline_camera_alt_24"
+        app:showAsAction="ifRoom">
+
+    </item>
+
+    <item
+
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/baseline_search_24"
+        app:showAsAction="ifRoom|collapseActionView">
+
+    </item>
+
+</menu>
